@@ -265,3 +265,28 @@ h1 {
     transform: translateX(0);
   }
 }
+
+@media screen and (max-width: 500px) {
+  #main-header{
+    padding: 2rem 1rem;
+  }
+  #main-title img {
+    width: 3rem;
+  }
+  h1{
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  #main-header button {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  #shop {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  #modal {
+    width: 80%;
+  }
+}
